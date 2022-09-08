@@ -1,0 +1,214 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #cdc1ee;
+  box-sizing: border-box; }
+
+body {
+  background-color: #cdc1ee;
+  margin: 20px;
+ }
+
+
+
+main {
+  text-align: center; }
+
+  .carousel, .carousel-inner img {
+    height: 400px;
+    width: 300px;;
+  }
+
+  .favoritos{
+    font-size: small;
+    color: white;
+  }
+
+header {
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline; }
+
+fieldset {
+  justify-content: center;
+  display: inline-block; }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around; }
+   
+  img {
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    align-content: center; } 
+
+@media only screen and (min-width: 500px) {}
+  * {
+    background-color: #cdc1ee; }
+  body { color: #cdc1ee; }
+  main {
+    width: auto;
+    height: auto; }
+  
+
+h1 {
+  color: #ff00ddbd;
+  font-family: 'Palette Mosaic', cursive;
+  line-height: 200px;
+  font-size: xx-large;
+  text-align: center; }
+
+h1 span {
+  transition: all 2s linear; }
+
+h1:hover span {
+  color: #f606c2;
+  text-shadow: 0 0 10px white, 0 0 20px, 0 0 40px; }
+
+  
+h2 {
+  background-color:#e4b8f3;
+  color: #f606c2;
+  font-family: 'Merienda', cursive;
+  line-height: 1.5;
+  text-align: center; }
+h4{
+  color: #f9f9f9;
+    font-family: 'Merienda', cursive;
+    line-height: 1.6; }
+
+ 
+h6 {
+  color: white;
+  font-family: 'Merienda', cursive;
+  font-size: 21.79px;
+  line-height: 3.17; }
+
+.texto {
+  background: radial-gradient(circle, #7c3ff7af 0%, #fca0f2d2 100%);
+  color: #44005f;
+  font-family: 'Merienda', cursive;
+  line-height: 2.5;
+  border: double 10px #3a1c3ad0;
+  border-radius: 5%;
+  width: auto;
+  display: inline-block;
+  padding: 80px;
+  text-align: center;
+  /* sobre nosotros */ }
+
+
+
+img {
+  opacity: .4;
+  padding: 1rem;
+  }
+  img:hover {
+    opacity: 1;
+    border: solid 2.5px violet;
+     }
+
+
+
+ul {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  list-style-type: circle;
+  font-family: 'Merienda', cursive;
+  line-height: 1.5;
+   }
+
+li {
+  text-align: center;
+   }
+
+a {
+  color: #c407f9;
+  text-decoration: none;
+  text-align: center; }
+
+label {
+  color: #a707f7;
+  /* formulario de contacto */ }
+
+legend {
+  color: white;
+  /* formulario de contacto */ }
+
+div {
+  color: white;
+  text-align: center; }
+
+option {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #aa97ea 100%);
+  /* formulario de contacto */ }
+
+input {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #aa97ea 100%);
+  /* formulario de contacto */ }
+
+select {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #aa97ea 100%); }
+
+textarea {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #aa97ea 100%);
+  /* formulario de contacto */ }
+
+  .icon {
+    height: 100px;
+    width: 100px;
+
+  }
+  a img {
+    height: 200px;
+    width: 200px;
+  }
+
+  #nuevosLib{
+    padding: 20px;
+  }
+
+  .container11{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+   
+  }
+
+  .cards{
+    width: 300px;
+    
+    
+
+  }
+
+  .card-img img{
+    width:100% ;
+    height: 100%;
+    
+  }
+
+  .card-body h5{
+    text-align: center;
+
+  }
+
+  #nuevoslibros{
+    color: #460846;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
